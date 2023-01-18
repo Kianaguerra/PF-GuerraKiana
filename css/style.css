@@ -1,9 +1,12 @@
-.contacto label,input{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.contacto label, input{
     display: block;
 }
 
 *{
     background-color: pink;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
@@ -33,6 +36,10 @@ a{
     a:hover{
         color: whitesmoke;
     }
+
+.imagenes-alquilopara ul li{
+    color: purple;
+}
 
 .contenedor-grid-catalogonovia{
     width: 99%;
@@ -214,7 +221,7 @@ form,label{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+    } 
 }
 
 @media (width<647px){
@@ -226,7 +233,7 @@ form,label{
 @media (width<1238px){
     .imagenes-alquilopara{
         display: flex;
-        flex-direction: column;
+        fle x-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -263,5 +270,18 @@ form,label{
         justify-content: center;
         align-items: center;
     }
+    
+}
+.carousel-inner{
+    background-color: rgb(184, 43, 118);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-index{
+    width: 500px;
+    height: 500px;
     
 }

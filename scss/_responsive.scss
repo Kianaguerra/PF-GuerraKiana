@@ -1,0 +1,57 @@
+@media (width<1224px){
+    #imagenes-inicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+}
+
+@media (width<647px){
+    .botonera{
+        flex-direction: column;
+    }
+}
+
+@media (width<1238px){
+    .imagenes-alquilopara{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lista{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* novias */
+@media (width<1135px){
+    .contenedor-grid-catalogonovia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* faq */
+@media (width<813px){
+    .preguntas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+    }
+}
+/* contacto */
+@media(width<900px){
+    .iconos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

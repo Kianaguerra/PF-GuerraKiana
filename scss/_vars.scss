@@ -1,0 +1,32 @@
+$paletaColores:(
+    'mainColor': pink,
+    'questionColor':fuchsia,
+    'answerColor': #4B2840,
+    'firstHeaderColor':rgb(226, 43, 134),
+    'secondHeaderColor':violet,
+    'navColor':rgb(201,31,82),
+    'navHoverColor': whitesmoke,
+    'items':purple,
+    'footerTextColor':rgb(255,0,191),
+);
+
+$borderStyle: 1px solid deeppink;
+$faqPadding: 5px;
+$faqTransform: scale(1.1);
+$faqTransition: all 1s;
+
+.estiloPreguntas{
+    border: $borderStyle;
+    padding: $faqPadding;
+    &:hover{
+        transform: $faqTransform;
+        transition:$faqTransition;
+    }
+}
+
+@mixin displayFlex($jc,$ai){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
